@@ -1,0 +1,47 @@
+<div class="panel panel-primary" style="height: 400px; width: 300px;margin-left: 150px;margin-top: 20px">
+  <div class="panel-heading" style="text-align: center">calculator</div>
+  <div class="well">
+    <div class="panel-body" style="margin-top: 15px;">
+  <form name="calculator" >
+      <div style="margin-top: 10px">
+        <input type="button" value="1" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='1'">
+        &nbsp;
+        <input type="button" value="2" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='2'">
+        &nbsp;
+        <input type="button" value="3" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='3'">
+        &nbsp;
+        <input type="button" value="/" class="btn btn-success btn-lg" onClick="document.calculator.ans.value+='/'">
+      </div>
+      <div style="margin-top: 10px">
+       <input type="button" value="4" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='4'">
+       &nbsp;
+       <input type="button" value="5" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='5'">
+       &nbsp;
+       <input type="button" value="6" class="btn btn-default btn-lg" onClick="document.calculator.ans.value+='6'">
+       &nbsp;
+       <input type="button" value="*" class="btn btn-success btn-lg" onClick="document.calculator.ans.value+='*'">
+      </div>
+      <div style="margin-top: 10px">
+      <input type="button" value="7" class="btn btn-default btn-lg"onClick="document.calculator.ans.value+='7'">
+      &nbsp;
+      <input type="button" value="8" class="btn btn-default btn-lg"onClick="document.calculator.ans.value+='8'">
+      &nbsp;
+      <input type="button" value="9" class="btn btn-default btn-lg"onClick="document.calculator.ans.value+='9'">
+      &nbsp;
+      <input type="button" value="-" class="btn btn-success btn-lg" onClick="document.calculator.ans.value+='-'">
+      </div>
+     
+      <div style="margin-top: 10px">
+      <input type="reset" value="c" class="btn btn-danger btn-lg"> 
+      &nbsp;
+      <input type="button" value="0"  class="btn btn-default btn-lg"onClick="document.calculator.ans.value+='0'">
+      &nbsp;
+      <input type="button" value="=" class="btn btn-warning btn-lg" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+      &nbsp;
+      <input type="button" value="+" class="btn btn-success btn-lg" onClick="document.calculator.ans.value+='+'">
+      &nbsp;
+       <input type="textfield" name="ans" value="" style="margin-top: 20px">
+      </div>
+  </form>
+  </div>
+      
