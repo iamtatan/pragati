@@ -1,0 +1,17 @@
+a{
+    color:white;
+    font-size: 20px;
+}
+a:hover{
+    color:#11423d;
+    font-size: 20px;
+    background-color:#2daa9e;
+}
+a:focus{
+    color:#11423d;
+    font-size: 20px;
+    background-color:#2daa9e;
+}
+nav{
+    background-color:#2daa9e;
+}

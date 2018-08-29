@@ -1,0 +1,7 @@
+1. Add your components inside component folder
+2. then add it inside app.module.ts
+3. then add it inside app.component.ts
+  
+do as you required
+
+and do it fast
