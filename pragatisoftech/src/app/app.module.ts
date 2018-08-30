@@ -12,13 +12,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HOMEComponent } from './components/home/home.component';
 import { DevelopedComponent } from './components/developed/developed.component';
-
+import { ContactComponent } from './components/contact/contact.component';
+import { FeedbackComponent } from './components/contact/feedback/feedback.component';
+import { MapComponent } from './components/contact/map/map.component';
+import { FooterComponent } from './components/contact/footer/footer.component';
+import { AgmCoreModule } from '@agm/core';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HOMEComponent,
-    DevelopedComponent
+    DevelopedComponent,
+    ContactComponent,
+    FeedbackComponent,
+    MapComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,10 @@ import { DevelopedComponent } from './components/developed/developed.component';
     MatMenuModule,
     MatIconModule,
     MatToolbarModule,
-    Ng2CarouselamosModule
+    Ng2CarouselamosModule,
+    AgmCoreModule.forRoot({
+      apiKey:'AIzaSyAXvfpwGiZtv791_NVz4-zYLkDh3-tlx3o'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
