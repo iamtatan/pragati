@@ -1,0 +1,14 @@
+.btn{
+    background-color: #2daa9e;
+    color: white;
+
+}
+.panel{
+    margin-left: 100px;
+    background-color: #eee;
+    height: 460px;
+    width: 468px;;
+}
+.form-group{
+    color:#2daa9e;
+}

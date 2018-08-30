@@ -1,0 +1,21 @@
+agm-map {
+    height: 300px;
+  }
+
+  .a{
+    height: 50px;
+    width: 1100px;
+    background-color: #2daa9e;
+    margin-left: 0.5px;
+  }
+
+  .b{
+    height: 250px;
+    width: 1100px;
+  }
+
+  .glyphicon{
+    color: white; 
+    font-size: 20px; 
+    margin-top: 7px;
+  }
