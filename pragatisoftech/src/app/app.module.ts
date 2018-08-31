@@ -22,6 +22,11 @@ import { WeComponent } from './components/services/we/we.component';
 import { WedevelopItemeComponent } from './components/services/we/wedevelop-iteme/wedevelop-iteme.component';
 import { AgmCoreModule } from '@agm/core';
 
+import { AboutComponent } from './components/about/about.component';
+import { VisionComponent } from './components/about/vision/vision.component';
+import { TieupComponent } from './components/about/tieup/tieup.component';
+import { OurstudentsComponent } from './components/about/ourstudents/ourstudents.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +40,11 @@ import { AgmCoreModule } from '@agm/core';
     ServicesComponent,
     InternshipComponent,
     WeComponent,
-    WedevelopItemeComponent
+    WedevelopItemeComponent,
+    AboutComponent,
+    VisionComponent,
+    TieupComponent,
+    OurstudentsComponent
   ],
   imports: [
     BrowserModule,

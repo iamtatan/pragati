@@ -1,0 +1,47 @@
+.panel-heading{
+    color: white;
+    background-color: #2daa9e;
+}
+.panel{
+  width: 250px;
+  text-align: center;
+  margin-top: 50px
+}
+
+.mySlides {display:none}
+.demo {
+  cursor:pointer;
+  background-color: #2daa9e; 
+  color: white; 
+  text-align: center;
+
+}
+.pic{
+  height: 100px;
+  width: 100px !important;
+}
+.pic2{
+  height: 400px;
+  width: 400px !important;
+}
+.w3-content{
+  width: 100% !important;
+  text-align: center;
+align-self: center;
+align-items: center;
+   align-content: center;
+  color: white;
+}
+.div2
+{
+  color: white;
+  text-align: center;
+width: 400px ;
+background-color: #2daa9e; 
+
+}
+marquee{
+  direction:"left";
+}
+
+
