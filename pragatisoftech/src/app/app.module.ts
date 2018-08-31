@@ -16,7 +16,12 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FeedbackComponent } from './components/contact/feedback/feedback.component';
 import { MapComponent } from './components/contact/map/map.component';
 import { FooterComponent } from './components/contact/footer/footer.component';
+import { ServicesComponent } from './components/services/services.component';
+import { InternshipComponent } from './components/internship/internship.component';
+import { WeComponent } from './components/services/we/we.component';
+import { WedevelopItemeComponent } from './components/services/we/wedevelop-iteme/wedevelop-iteme.component';
 import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +31,11 @@ import { AgmCoreModule } from '@agm/core';
     ContactComponent,
     FeedbackComponent,
     MapComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesComponent,
+    InternshipComponent,
+    WeComponent,
+    WedevelopItemeComponent
   ],
   imports: [
     BrowserModule,
