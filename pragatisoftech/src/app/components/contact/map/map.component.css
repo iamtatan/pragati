@@ -9,7 +9,7 @@ agm-map {
     margin-left: 0.5px;
     text-align: left;
     border-block-end-color: black 2px;
-    font-size: 17px;
+    font-size: 20px;
     font-family: url("https://fonts.google.com/?query=nunit&selection.family=Nunito");
   
   }
@@ -21,7 +21,7 @@ agm-map {
 
   .glyphicon{
     color: white; 
-    font-size: 25px; 
+    font-size: 20px; 
     margin-top: 7px;
   }
 
