@@ -1,11 +1,13 @@
 .panel-heading{
     color: white;
     background-color: #2daa9e;
+    font-family: 'Nunito';
+    font-size: 17px;
 }
 .panel{
   width: 250px;
   text-align: center;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .mySlides {display:none}
@@ -18,10 +20,10 @@
 }
 .pic{
   height: 100px;
-  width: 100px !important;
+  width: 200px !important;
 }
 .pic2{
-  height: 400px;
+  height: 200px;
   width: 400px !important;
 }
 .w3-content{
