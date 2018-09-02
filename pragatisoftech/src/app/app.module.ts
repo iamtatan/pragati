@@ -20,6 +20,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { InternshipComponent } from './components/internship/internship.component';
 import { WeComponent } from './components/services/we/we.component';
 import { WedevelopItemeComponent } from './components/services/we/wedevelop-iteme/wedevelop-iteme.component';
+import { InternComponent } from './components/internship/intern/intern.component';
+
 import { AgmCoreModule } from '@agm/core';
 
 import { AboutComponent } from './components/about/about.component';
@@ -41,6 +43,7 @@ import { OurstudentsComponent } from './components/about/ourstudents/ourstudents
     InternshipComponent,
     WeComponent,
     WedevelopItemeComponent,
+    InternComponent,
     AboutComponent,
     VisionComponent,
     TieupComponent,
