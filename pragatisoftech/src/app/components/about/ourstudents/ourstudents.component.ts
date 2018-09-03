@@ -6,22 +6,28 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ourstudents.component.css']
 })
 export class OurstudentsComponent implements OnInit {
-
-  constructor() { }
-  myIndex = 0;
-  ngOnInit() {
-      this.carousel();
+  imgArray:any = [
+    '../../../../assets/1.png',
+    '../../../../assets/2.png',
+    '../../../../assets/3.png',
+    '../../../../assets/4.png',
+    '../../../../assets/5.png'];
+    curIndex = 0;
+    imgDuration = 5000;
+  constructor() { 
+    
   }
-  carousel() {
-    var i;
-    var x = document.getElementsByName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    this.myIndex++;
-    if (this.myIndex > x.length) {this.myIndex = 1}    
-    x[this.myIndex-1].style.display = "block";  
-    setTimeout(this.carousel, 2000);  
-}
-  
+
+  ngOnInit() {
+    this.slideShow();
+  }
+  slideShow() {
+   var bikeImage = document.getElementById("image1") as HTMLImageElement;
+   bikeImage.src = this.imgArray[this.curIndex];
+    this.curIndex++; 
+    if (this.curIndex == this.imgArray.length) { this.curIndex = 0; }
+    setInterval(() => {
+      this.slideShow();
+  },this.imgDuration = 5000);
+  }  
 }
