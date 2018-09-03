@@ -8,35 +8,20 @@ import { Component, OnInit } from '@angular/core';
 export class OurstudentsComponent implements OnInit {
 
   constructor() { }
-  slideIndex = 1;
+  myIndex = 0;
   ngOnInit() {
-    this.showDivs(this.slideIndex);
+      this.carousel();
   }
-  
-  
-  
-  plusDivs(n) {
-    this.showDivs(this.slideIndex += n);
-  }
-  
-   currentDiv(n) {
-    this.showDivs(this.slideIndex = n);
-  }
-  
-  showDivs(n) {
+  carousel() {
     var i;
     var x = document.getElementsByName("mySlides");
-    var dots = document.getElementsByName("demo");
-    if (n > x.length) {this.slideIndex = 1}
-    if (n < 1) {this.slideIndex = x.length}
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
+       x[i].style.display = "none";  
     }
-    for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-    }
-    x[this.slideIndex-1].style.display = "block";
-    dots[this.slideIndex-1].className += " w3-opacity-off";
-  }
+    this.myIndex++;
+    if (this.myIndex > x.length) {this.myIndex = 1}    
+    x[this.myIndex-1].style.display = "block";  
+    setTimeout(this.carousel, 2000);  
+}
   
 }
