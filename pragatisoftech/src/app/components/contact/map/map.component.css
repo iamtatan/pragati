@@ -1,28 +1,4 @@
 agm-map {
-    height: 300px;
-  }
-
-  .a{
-    height: 50px;
-    width: 1100px;
-    background-color: #2daa9e;
-    margin-left: 0.5px;
-    text-align: left;
-    border-block-end-color: black 2px;
-    font-size: 20px;
-    font-family: url("https://fonts.google.com/?query=nunit&selection.family=Nunito");
-  
-  }
-
-  .b{
-    height: 250px;
-    width: 1100px;
-  }
-
-  .glyphicon{
-    color: white; 
-    font-size: 20px; 
-    margin-top: 7px;
-  }
-
-  
+  height: 460px;
+  width: 640px;
+  }  
