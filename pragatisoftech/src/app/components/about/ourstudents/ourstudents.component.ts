@@ -26,8 +26,6 @@ export class OurstudentsComponent implements OnInit {
    bikeImage.src = this.imgArray[this.curIndex];
     this.curIndex++; 
     if (this.curIndex == this.imgArray.length) { this.curIndex = 0; }
-    setInterval(() => {
-      this.slideShow();
-  },this.imgDuration = 5000);
+    setInterval(() => {this.slideShow()},this.imgDuration);
   }  
 }
