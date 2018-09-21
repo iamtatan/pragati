@@ -28,6 +28,7 @@ import { AboutComponent } from './components/about/about.component';
 import { VisionComponent } from './components/about/vision/vision.component';
 import { TieupComponent } from './components/about/tieup/tieup.component';
 import { OurstudentsComponent } from './components/about/ourstudents/ourstudents.component';
+import { TiecompanyComponent } from './components/tiecompany/tiecompany.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { OurstudentsComponent } from './components/about/ourstudents/ourstudents
     AboutComponent,
     VisionComponent,
     TieupComponent,
-    OurstudentsComponent
+    OurstudentsComponent,
+    TiecompanyComponent
   ],
   imports: [
     BrowserModule,
