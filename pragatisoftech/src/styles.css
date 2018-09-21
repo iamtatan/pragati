@@ -38,6 +38,7 @@
     font-family: url('https://fonts.googleapis.com/css?family=Dosis');
     color: #2daa9e;
     font-size: 14pt;
+    text-align: justify;
 }
 .texts2
 {
@@ -92,4 +93,7 @@ hr
 }
 textarea {
     resize: none;
+ }
+ .icon{
+    font-size:80px;
  }
