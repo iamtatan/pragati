@@ -56,6 +56,12 @@
     height: 300px;
     width: 500px !important;
 }
+.mainlogo
+{
+    margin-top: 10px;
+    height: 30px;
+    width: 150px !important;
+}
 hr
 {   
     text-align: center;
