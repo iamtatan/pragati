@@ -6,26 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ourstudents.component.css']
 })
 export class OurstudentsComponent implements OnInit {
-  imgArray:any = [
-    '../../../../assets/1.png',
-    '../../../../assets/2.png',
-    '../../../../assets/3.png',
-    '../../../../assets/4.png',
-    '../../../../assets/5.png'];
-    curIndex = 0;
-    imgDuration = 5000;
+  
   constructor() { 
     
   }
 
   ngOnInit() {
-    this.slideShow();
+    this.galleryspin('-');
   }
-  slideShow() {
-   var bikeImage = document.getElementById("image1") as HTMLImageElement;
-   bikeImage.src = this.imgArray[this.curIndex];
-    this.curIndex++; 
-    if (this.curIndex == this.imgArray.length) { this.curIndex = 0; }
-    setInterval(() => {this.slideShow()},this.imgDuration);
-  }  
+  angle = 0;
+ galleryspin(sign) { 
+   console.log(sign);
+  var spinner = document.getElementById("spinner");
+ if (!sign) { this.angle = this.angle + 45; } else { this.angle = this.angle - 45; }
+ spinner.style.right;
+ spinner.style.webkitTransform ="rotateY("+ this.angle +"deg)";
+
+ spinner.style.transform ="rotateY("+this. angle +"deg)";
+ setTimeout(() => {
+  this.galleryspin('-');
+ }, 2000);
+ }
+
+ 
 }
