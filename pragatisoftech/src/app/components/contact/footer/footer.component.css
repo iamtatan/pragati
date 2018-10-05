@@ -1,9 +1,30 @@
 .row{
-    background-color: #2daa9e;
+    background-color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+  
 }
 
 .col-md-4{
     color: white;
     margin-top: 9px;
     font-size: 15px;
+    text-align: left;
+}
+
+.row1{
+    color: black;
+    background-color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+}
+
+.fa{
+    font-size: 36px;
+}
+
+.abc{
+    color: white;
+    margin-top: 9px;
 }
