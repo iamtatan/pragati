@@ -1,32 +1,45 @@
-.container {
-    position: relative;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #2daa9e;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .owntext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align:center;
-  }
+
+.div1{
+  background-color: lightgray;
+  width: 300px !important;
+  height: 300px !important;
+}
+.div2{
+  background-color: darkgray;
+  width: 300px !important;
+  height: 300px !important;
+}
+.div3{
+  background-color: grey;
+  width: 300px !important;
+  height: 300px !important;
+}
+.div4{
+  background-color: black;
+  width: 300px !important;
+  height: 300px !important;
+}
+.container1
+{
+  font-size: 11pt;
+  color: white;
+  text-align: left;
+}
+.container2
+{
+  font-size: 11pt;
+  color: black;
+  text-align: left;
+}
+.heading1
+{
+  font-size: 14pt;
+  color: white;
+  text-align: left;
+}
+.heading2
+{
+  font-size: 14pt;
+  color: black;
+  text-align: left;
+}
