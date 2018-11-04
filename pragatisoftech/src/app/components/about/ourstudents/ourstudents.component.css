@@ -37,4 +37,6 @@ div#carousel {
     border-bottom: none; 
     line-height: 0; }
   div#carousel ~ span:hover { color: #888; cursor: pointer; }
-  
+ .e{
+   margin-top: 80px;
+ } 

@@ -26,7 +26,6 @@ import { AgmCoreModule } from '@agm/core';
 
 import { AboutComponent } from './components/about/about.component';
 import { VisionComponent } from './components/about/vision/vision.component';
-import { TieupComponent } from './components/about/tieup/tieup.component';
 import { OurstudentsComponent } from './components/about/ourstudents/ourstudents.component';
 import { TiecompanyComponent } from './components/tiecompany/tiecompany.component';
 
@@ -47,7 +46,6 @@ import { TiecompanyComponent } from './components/tiecompany/tiecompany.componen
     InternComponent,
     AboutComponent,
     VisionComponent,
-    TieupComponent,
     OurstudentsComponent,
     TiecompanyComponent
   ],
